@@ -1,14 +1,13 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import React from "react"
 import Image from "../components/image"
+import "../components/image.css"
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import SEO from "../components/seo"
 
 const Images = () => (
   <Layout>
-    <Seo title="Page two" />
+    <SEO title="Images" />
     <Image />
-    
   </Layout>
 )
 
